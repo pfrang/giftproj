@@ -1,0 +1,28 @@
+.element-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  height: 100%;
+  border: 2px;
+  border-style: solid;
+  background-color: gray;
+}
+
+.row-container {
+  border: 2px;
+  border-style: dotted;
+  border-color: red;
+}
+
+h1 {
+  text-align: center;
+  color: wheat;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.row-container * {
+  padding: 10px;
+  margin: 10px;
+}
